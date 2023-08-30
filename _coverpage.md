@@ -1,11 +1,11 @@
-![logo]([![pPwiXnO.jpg](https://s1.ax1x.com/2023/08/30/pPwiXnO.jpg)](https://imgse.com/i/pPwiXnO))
+![logo](https://img1.imgtp.com/2023/08/30/p0fnMAHS.png)
 
-# Tibbits_blog
+# **Tibbits_blog**
 
 > ###### 记录
 
 <!-- 背景图片 -->
 
-![](_media/bg.png)
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Go](#docsify)
+![](https://img1.imgtp.com/2023/08/30/5dUMEQ7a.jpg)
+[**GitHub**](https://github.com/docsifyjs/docsify/)
+[**Go**](#docsify)
