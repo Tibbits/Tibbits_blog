@@ -1,6 +1,6 @@
 ## **Tibbits_blog**
 
-> 记录生活点滴
+> 个人博客
 >
 
 # Tibbitsblog
