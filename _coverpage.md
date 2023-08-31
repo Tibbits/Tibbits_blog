@@ -1,11 +1,7 @@
-![logo](https://img1.imgtp.com/2023/08/30/p0fnMAHS.png)
+![logo](https://img1.imgtp.com/2023/08/31/3JXhaNdW.png)
 
 # **Tibbits_blog**
 
-> ###### 记录
+[**GitHub**](https://github.com/Tibbits/Tibbits_blog)  [**Docsify**](https://docsify.js.org/#/zh-cn/)  [**Go**](#docsify)
 
-<!-- 背景图片 -->
-
-![](https://img1.imgtp.com/2023/08/30/5dUMEQ7a.jpg)
-[**GitHub**](https://github.com/docsifyjs/docsify/)
-[**Go**](#docsify)
+![](media/forest.jpg)
