@@ -7,6 +7,11 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/buble.css">
+<!-- <link 
+    rel="stylesheet"
+    href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
+    type="text/css"
+/> -->
 </head>
 <body>
     <!-- Loading dialog -->
@@ -15,10 +20,9 @@
   <script>
     window.$docsify = {
       name: 'Tibbits_blog',
-      // 右上角github小部件链接
       // 主页
       homepage: '_homepage.md',
-      repo: 'https://github.com/Tibbits/Tibbits_blog',
+      repo: '',
       loadSidebar: true,
       coverpage: '_coverpage.md',
       // 侧边栏顶部标题或logo链接
@@ -28,15 +32,15 @@
       fontsize:'0.9em',
       color:'rgb(90,90,90)',
       language:'chinese',
-      // 全文搜索
-      search: {
-        // （毫秒）过期时间一天
-        maxAge: 86400000,
-        paths: 'auto',
-        placeholder: '搜一下',
-        noData: '未果',
-        depth: '6'
-      },
+      // // 全文搜索
+      // search: {
+      //   // （毫秒）过期时间一天
+      //   maxAge: 86400000,
+      //   paths: 'auto',
+      //   placeholder: '搜一下',
+      //   noData: '未果',
+      //   depth: '6'
+      // },
       // 路由映射，固定根目录的文件
       alias: {
         '/.*/sidebar.md': '/sidebar.md',
