@@ -2,5 +2,6 @@
 * [考研](考研/)
 * [学习](学习/)
   * [git](学习/git/)
+  * [github pages 绑定阿里云域名](学习/githubpages绑定阿里云域名)
 
 
