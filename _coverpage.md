@@ -2,4 +2,4 @@
 
 [**GitHub**](https://github.com/Tibbits/Tibbits_blog)  [**Docsify**](https://docsify.js.org/#/zh-cn/)  [**Go**](_homepage)
 
-![](media/forest.jpg)
+![](image/forest.jpg)
