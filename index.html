@@ -29,7 +29,8 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   <script>
     window.$docsify = {
-      // name: 'Tibbits_blog',
+      name: 'Tibbits blog',
+      nameLink: getHomepageLink(),
       // 主页
       homepage: '_homepage.md',
       repo: '',
@@ -72,6 +73,14 @@
       // toc: {    scope: '.markdown-section',    headings: 'h1, h2, h3, h4, h5, h6',    title: 'Table of Contents',  },
 
     }
+    function getHomepageLink() {
+  var currentURL = window.location.href;
+  if (currentURL.includes('localhost')) {
+    return 'http://localhost:3000/?#/_homepage';
+  } else {
+    return 'https://www.tibbitsblog.top/#/_homepage';
+  }
+}
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script> 
@@ -96,16 +105,5 @@
       distractionFreeMode: false  // Facebook-like distraction free mode
     })
 </script>
-<!-- <script>
-    const gitalk = new Gitalk({
-      clientID: '2c899ee8d4dc774ee56f',
-      clientSecret: 'e69d5fcc23e6c8396a31ad3a3a011b4523a3a73e',
-      repo: 'design-patterns',
-      owner: 'swiftdo',
-      admin: ['OHeroJ'],
-      distractionFreeMode: false,
-      id: decodeURI(window.location.pathname),
-    })
-  </script> -->
 </body>
 </html>
