@@ -36,15 +36,15 @@
 
 ##### 点开setting，从develop settings中点开OAuth app
 
-![image-20230902162235204](../../_image/oauth.png)
+![](../_image/oauth.png)
 
 ##### 填好信息
 
-![image-20230902163504377](../../_image/oauth2.png)
+![](../_image/oauth2.png)
 
 ##### 现在是配置好的图，开始的时候就弄一个secret
 
-![image-20230902163024490](../../_image/oauth1.png)
+![](../_image/oauth1.png)
 
 > 以上是初步配置
 
@@ -201,7 +201,7 @@ https://github.com/login/oauth/access_token
 
 #### OAuth2.0协议规范流程
 
-![](../../_image/oauth3.png)
+![](../_image/oauth3.png)
 
 - Client请求RO的授权，请求中一般包含：要访问的资源路径，操作类型，Client的身份等信息。
 - RO批准授权，并将“授权证据”发送给Client。至于RO如何批准，这个是协议之外的事情。典型的做法是，AS提供授权审批界面，让RO显式批准。这个可以参考下一节实例化分析中的描述。
@@ -212,7 +212,7 @@ https://github.com/login/oauth/access_token
 
 #### 最典型的Authorization Code 授权模式
 
-![](../../_image/oauth4.png)
+![](../_image/oauth4.png)
 
 ##### 核心思想：
 
@@ -231,7 +231,7 @@ https://github.com/login/oauth/access_token
 
 ​		OAuth 协议设计不同于简单的网络安全协议的设计，因为OAuth需要考虑各种Web攻击，比如CSRF (Cross-Site Request Forgery), XSS (Cross Site Script), Clickjacking。在redirect_uri中引入state参数就是从浏览器安全角度考虑的，有了它就可以抵制CSRF攻击。
 
-![](../../_image/oauth5.png)
+![](../_image/oauth5.png)
 
 
 
