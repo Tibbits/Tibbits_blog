@@ -29,8 +29,8 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   <script>
     window.$docsify = {
-      name: 'Tibbits blog',
-      nameLink: getHomepageLink(),
+      // name: "Tibbits_blog",
+      // nameLink: getHomepageLink(),
       // 主页
       homepage: '_homepage.md',
       repo: '',
@@ -71,8 +71,14 @@
       },
       // //目录跳转
       // toc: {    scope: '.markdown-section',    headings: 'h1, h2, h3, h4, h5, h6',    title: 'Table of Contents',  },
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+      formatUpdated: function(time) {
+    // ...
 
+    return time;
+  },
     }
+
     function getHomepageLink() {
   var currentURL = window.location.href;
   if (currentURL.includes('localhost')) {
